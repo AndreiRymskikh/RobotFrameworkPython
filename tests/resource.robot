@@ -5,8 +5,10 @@ Library    SeleniumLibrary
 Library    OperatingSystem
 
 *** Variables ***
-${username}    someWrongUsername
-${password}    12345356
+${username}    rahulshettyacademy
+${password}    learning
+${wrong_username}    someWrongUsername
+${wrong_password}    12345356
 ${url}        https://rahulshettyacademy.com/loginpagePractise/
 
 
