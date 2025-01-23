@@ -17,6 +17,7 @@ Validate Unsuccessful Login
 Validate products are displayed on Shopping Page
     Fill Login form    ${username}    ${password}
     Wait visibility of element    ${Shop_Page_Load}
+    Verify Card titles on the Shop Page
 
 *** Keywords ***
 Fill Login form
@@ -31,3 +32,11 @@ Wait visibility of element
 
 Verify error message
     Element Text Should Be    ${Error_Message_Login}    Incorrect username/password.
+
+Verify Card titles on the Shop Page
+    ${productsList} =    Create List    iphone X    Samsung Note 8    Nokia Edge
+    ${elements} =    Get Webelements    css:.card-title
+    FOR    ${element}    IN    @{elements}
+       Log    ${element.text}
+
+    END
