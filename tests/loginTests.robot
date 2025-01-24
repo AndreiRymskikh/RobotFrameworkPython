@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation    To validate the Login form
 Library    SeleniumLibrary
+Library    Collections
 Test Setup       Open browser with Mortgage payment url
 Test Teardown    Close Browser
 Resource         resource.robot
@@ -34,9 +35,12 @@ Verify error message
     Element Text Should Be    ${Error_Message_Login}    Incorrect username/password.
 
 Verify Card titles on the Shop Page
-    ${productsList} =    Create List    iphone X    Samsung Note 8    Nokia Edge
+    @{productsList} =    Create List    iphone X    Samsung Note 8    Nokia Edge    Blackberry
     ${elements} =    Get Webelements    css:.card-title
+    @{actualList} =    Create List
     FOR    ${element}    IN    @{elements}
        Log    ${element.text}
-
+       Append To List    ${actualList}    ${element.text}
     END
+    
+    Lists Should Be Equal    ${productsList}    ${actualList}
