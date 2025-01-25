@@ -19,6 +19,7 @@ Validate products are displayed on Shopping Page
     Fill Login form    ${username}    ${password}
     Wait visibility of element    ${Shop_Page_Load}
     Verify Card titles on the Shop Page
+    Select the card    Blackberry
 
 *** Keywords ***
 Fill Login form
@@ -44,3 +45,15 @@ Verify Card titles on the Shop Page
     END
     
     Lists Should Be Equal    ${productsList}    ${actualList}
+
+Select the card
+    [Arguments]    ${cardName}
+    ${elements} =    Get Webelements    css:.card-title
+    ${index} =    Set Variable    1
+    FOR    ${element}  IN    @{elements}
+             Exit For Loop If    '${cardName}' == '${element.text}'
+             ${index} =  Evaluate    ${index} + 1
+    END
+    Log    ${index}
+    Click Button    xpath:(//*[@class='card-footer'])[${index}]/button
+    
