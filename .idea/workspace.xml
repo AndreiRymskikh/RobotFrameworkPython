@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265e99f8-aa11-467a-9d84-0caf33df0988" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/loginWithWrongCredsTestDataFromCsv.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/resources/loginData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/loginWithWrongCredsTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/loginWithWrongCredsTest.robot" afterDir="false" />
     </list>
@@ -40,12 +42,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Robot.Login with ${username} and ${password}.executor": "Run",
     "Robot.Select the form and navigate to Child window.executor": "Run",
     "Robot.Validate Unsuccessful Login (1).executor": "Run",
     "Robot.Validate Unsuccessful Login.executor": "Run",
     "Robot.Validate child window functionality.executor": "Run",
     "Robot.Validate products are displayed on Shopping Page.executor": "Run",
     "Robot.loginTests.robot.executor": "Run",
+    "Robot.loginWithWrongCredsTest.robot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "develop",
@@ -58,7 +62,29 @@
       <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Robot.loginWithWrongCredsTest.robot">
+  <component name="RunManager" selected="Robot.Login with ${username} and ${password}">
+    <configuration name="Login with ${username} and ${password}" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="PythonRobotFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.loginWithWrongCredsTest.Login with ${username} and ${password}&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Select the form and navigate to Child window" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
@@ -125,28 +151,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="loginTests.robot" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="PythonRobotFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--suite &quot;PythonRobotFramework.tests.loginTests&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="loginWithWrongCredsTest.robot" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
@@ -171,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Robot.Login with ${username} and ${password}" />
         <item itemvalue="Robot.loginWithWrongCredsTest.robot" />
         <item itemvalue="Robot.Validate child window functionality" />
         <item itemvalue="Robot.Select the form and navigate to Child window" />
         <item itemvalue="Robot.Validate products are displayed on Shopping Page" />
-        <item itemvalue="Robot.loginTests.robot" />
       </list>
     </recent_temporary>
   </component>

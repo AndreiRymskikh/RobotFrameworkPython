@@ -1,15 +1,15 @@
 *** Settings ***
 Documentation    To validate the Login form
 Library    SeleniumLibrary
+Library    DataDriver    file=resources/loginData.csv    encoding=utf_8    dialect=unix
 Test Teardown    Close Browser
 Test Template    Validate Unsuccessful Login
 *** Variables ***
 ${Error_Message_Login}    css:.alert-danger
 
-*** Test Cases ***    username    password
-Invalid username      wrongUsernm       learning
-Invalid password      rahulshetty       wrongPswd
-Special characters    @#${}             learning
+*** Test Cases ***
+Login with ${username} and ${password}
+
 
 *** Keywords ***
 Validate Unsuccessful Login
