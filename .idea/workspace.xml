@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265e99f8-aa11-467a-9d84-0caf33df0988" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/custom.libraries/Shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom.libraries/Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom.libraries/Shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Robot.Validate Unsuccessful Login">
+  <component name="RunManager" selected="Robot.Validate products are displayed on Shopping Page">
     <configuration name="Login with ${username} and ${password}" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
@@ -77,28 +77,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
       <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.loginWithWrongCredsTest.Login with ${username} and ${password}&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Select the form and navigate to Child window" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="PythonRobotFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.childWindowTests.Select the form and navigate to Child window&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -150,6 +128,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Validate products are displayed on Shopping Page" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="PythonRobotFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.shopCardsTestWithCustomKeywords.Validate products are displayed on Shopping Page&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="loginWithWrongCredsTest.robot" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Robot.Validate products are displayed on Shopping Page" />
         <item itemvalue="Robot.Validate Unsuccessful Login" />
         <item itemvalue="Robot.Login with ${username} and ${password}" />
         <item itemvalue="Robot.loginWithWrongCredsTest.robot" />
         <item itemvalue="Robot.Validate child window functionality" />
-        <item itemvalue="Robot.Select the form and navigate to Child window" />
       </list>
     </recent_temporary>
   </component>

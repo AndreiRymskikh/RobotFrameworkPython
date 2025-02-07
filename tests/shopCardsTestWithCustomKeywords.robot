@@ -9,6 +9,7 @@ Resource         resource.robot
 *** Variables ***
 ${Error_Message_Login}    css:.alert-danger
 ${Shop_Page_Load}    css:.nav-link
+@{listOfProducts}    Nokia Edge    Blackberry
 
 *** Test Cases ***
 Validate Unsuccessful Login
@@ -20,7 +21,7 @@ Validate products are displayed on Shopping Page
     Fill Login form    ${username}    ${password}
     Wait visibility of element    ${Shop_Page_Load}
     Verify Card titles on the Shop Page
-    Select the card    Blackberry
+    Add items to card and checkout    ${listOfProducts}
 
 *** Keywords ***
 Fill Login form
