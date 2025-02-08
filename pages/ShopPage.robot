@@ -1,37 +1,15 @@
 *** Settings ***
-Documentation    To validate the Login form
+Documentation    All the web element and keywords for the Shop Page
 Library    SeleniumLibrary
 Library    Collections
-Library    ../custom.libraries/Shop.py
-Test Setup       Open browser with Mortgage payment url
-Test Teardown    Close Browser
-Resource         ../pages/resource.robot
-Resource    ../pages/LandingPage.robot
+
 *** Variables ***
-${Error_Message_Login}    css:.alert-danger
 ${Shop_Page_Load}    css:.nav-link
-@{listOfProducts}    Nokia Edge    Blackberry
-
-*** Test Cases ***
-Validate Unsuccessful Login
-    LandingPage.Fill Login form    ${wrong_username}    ${wrong_password}
-    Wait visibility of element    ${Error_Message_Login}
-    Verify error message
-
-Validate products are displayed on Shopping Page
-    Fill Login form    ${username}    ${password}
-    Wait visibility of element    ${Shop_Page_Load}
-    Verify Card titles on the Shop Page
-    Add items to card and checkout    ${listOfProducts}
 
 *** Keywords ***
-
 Wait visibility of element
     [Arguments]    ${element}
     Wait Until Element Is Visible    ${element}
-
-Verify error message
-    Element Text Should Be    ${Error_Message_Login}    Incorrect username/password.
 
 Verify Card titles on the Shop Page
     @{productsList} =    Create List    iphone X    Samsung Note 8    Nokia Edge    Blackberry
@@ -41,7 +19,7 @@ Verify Card titles on the Shop Page
        Log    ${element.text}
        Append To List    ${actualList}    ${element.text}
     END
-    
+
     Lists Should Be Equal    ${productsList}    ${actualList}
 
 Select the card
@@ -54,4 +32,3 @@ Select the card
     END
     Log    ${index}
     Click Button    xpath:(//*[@class='card-footer'])[${index}]/button
-    

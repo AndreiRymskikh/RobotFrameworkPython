@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265e99f8-aa11-467a-9d84-0caf33df0988" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/LandingPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ShopPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom.libraries/Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom.libraries/Shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/loginTests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selectProductsTests.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/resource.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resource.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +55,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "C:/Users/andrei.rymskikh/Repos/PythonRobotFramework/tests",
+    "last_opened_file_path": "C:/Users/andrei.rymskikh/Repos/PythonRobotFramework/pages",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\pages" />
       <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\pages" />
     </key>
   </component>
   <component name="RunManager" selected="Robot.Validate products are displayed on Shopping Page">
