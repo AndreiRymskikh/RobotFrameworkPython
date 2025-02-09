@@ -7,9 +7,6 @@ Test Teardown    Close Browser
 Resource         ../pages/resource.robot
 Resource    ../pages/ShopPage.robot
 Resource    ../pages/LandingPage.robot
-*** Variables ***
-${Error_Message_Login}    css:.alert-danger
-
 
 *** Test Cases ***
 Validate products are displayed on Shopping Page
@@ -17,7 +14,5 @@ Validate products are displayed on Shopping Page
     Wait visibility of element    ${Shop_Page_Load}
     Verify Card titles on the Shop Page
     Select the card    Blackberry
-
-*** Keywords ***
 
     

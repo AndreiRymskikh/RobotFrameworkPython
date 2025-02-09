@@ -16,3 +16,7 @@ ${url}        https://rahulshettyacademy.com/loginpagePractise/
 Open browser with Mortgage payment url
     Create Webdriver    Chrome
     Go To    ${url}
+
+Wait Until element is located on Page
+    [Arguments]    ${page_locator}
+    Wait Until Element Is Visible    ${page_locator}
