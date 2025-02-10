@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265e99f8-aa11-467a-9d84-0caf33df0988" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/CheckoutPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ConfirmationPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/LandingPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/pages/LandingPage.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/loginWithWrongCredsTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/loginWithWrongCredsTest.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/selectProductsTests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/selectProductsTests.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom.libraries/Shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom.libraries/Shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Robot.Invalid username">
+  <component name="RunManager" selected="Robot.Validate products are displayed on Shopping Page">
     <configuration name="Invalid username" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
@@ -181,9 +182,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Robot.Validate products are displayed on Shopping Page" />
         <item itemvalue="Robot.Invalid username" />
         <item itemvalue="Robot.Validate products are displayed on Shopping Page (1)" />
-        <item itemvalue="Robot.Validate products are displayed on Shopping Page" />
         <item itemvalue="Robot.Validate Unsuccessful Login" />
         <item itemvalue="Robot.Login with ${username} and ${password}" />
       </list>
