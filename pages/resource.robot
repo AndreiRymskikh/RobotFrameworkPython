@@ -17,6 +17,12 @@ Open browser with Mortgage payment url
     Create Webdriver    Chrome
     Go To    ${url}
 
+#For cross-browser launching
+Open browser with the url
+    [Arguments]    ${browser_name}
+    Create Webdriver    ${browser_name}
+    Go To    ${url}
+
 Wait Until element is located on Page
     [Arguments]    ${page_locator}
     Wait Until Element Is Visible    ${page_locator}
