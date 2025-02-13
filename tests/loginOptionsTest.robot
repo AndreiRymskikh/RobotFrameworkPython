@@ -11,6 +11,8 @@ ${Shop_Page_Load}    css:.nav-link
 
 *** Test Cases ***
 Check the login options
+    #to run test by tags: robot --include <tag_name> .
+    [Tags]    LoginTests
     Fill the login details and select the User option    ${username}    ${password}
     Select teacher
     Accept terms and conditions
