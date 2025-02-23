@@ -10,11 +10,12 @@ ${password}    learning
 ${wrong_username}    someWrongUsername
 ${wrong_password}    12345356
 ${url}        https://rahulshettyacademy.com/loginpagePractise/
+${browser_name}    Chrome
 
 
 *** Keywords ***
 Open browser with Mortgage payment url
-    Create Webdriver    Chrome
+    Create Webdriver    ${browser_name}
     Go To    ${url}
 
 #For cross-browser launching
