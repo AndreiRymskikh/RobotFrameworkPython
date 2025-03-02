@@ -25,8 +25,6 @@ Validate products are displayed on Shopping Page
     Enter the country and accept the terms    ${country_name}
     Purchase the product and confirm
 
-*** Keywords ***
-
 
 
 

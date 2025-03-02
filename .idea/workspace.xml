@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265e99f8-aa11-467a-9d84-0caf33df0988" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/apiTests.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/shopCardsTestWithCustomKeywords.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Robot.Invalid username.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Login with ${username} and ${password}.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Select the form and navigate to Child window.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Validate Unsuccessful Login (1).executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Validate Unsuccessful Login.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Validate child window functionality.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Validate products are displayed on Shopping Page (1).executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Validate products are displayed on Shopping Page.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.loginTests.robot.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.loginWithWrongCredsTest.robot.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andrei.rymskikh/Repos/PythonRobotFramework/pages&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Robot.Add Book into Library DataBase.executor": "Run",
+    "Robot.Invalid username.executor": "Run",
+    "Robot.Login with ${username} and ${password}.executor": "Run",
+    "Robot.Play around Dictionary.executor": "Run",
+    "Robot.Select the form and navigate to Child window.executor": "Run",
+    "Robot.Validate Unsuccessful Login (1).executor": "Run",
+    "Robot.Validate Unsuccessful Login.executor": "Run",
+    "Robot.Validate child window functionality.executor": "Run",
+    "Robot.Validate products are displayed on Shopping Page (1).executor": "Run",
+    "Robot.Validate products are displayed on Shopping Page.executor": "Run",
+    "Robot.apiTests.robot.executor": "Run",
+    "Robot.loginTests.robot.executor": "Run",
+    "Robot.loginWithWrongCredsTest.robot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/andrei.rymskikh/Repos/PythonRobotFramework/pages",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\pages" />
@@ -65,7 +70,29 @@
       <recent name="C:\Users\andrei.rymskikh\Repos\PythonRobotFramework\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Robot.Validate products are displayed on Shopping Page">
+  <component name="RunManager" selected="Robot.apiTests.robot">
+    <configuration name="Add Book into Library DataBase" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="PythonRobotFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.apiTests.Add Book into Library DataBase&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Invalid username" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
@@ -88,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Login with ${username} and ${password}" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Play around Dictionary" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="PythonRobotFramework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,51 +129,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.loginWithWrongCredsTest.Login with ${username} and ${password}&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Validate Unsuccessful Login" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="PythonRobotFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.shopCardsTestWithCustomKeywords.Validate Unsuccessful Login&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Validate products are displayed on Shopping Page (1)" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="PythonRobotFramework" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.selectProductsTests.Validate products are displayed on Shopping Page&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;PythonRobotFramework.tests.apiTests.Play around Dictionary&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -176,13 +159,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="apiTests.robot" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="PythonRobotFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--suite &quot;PythonRobotFramework.tests.apiTests&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Robot.apiTests.robot" />
+        <item itemvalue="Robot.Add Book into Library DataBase" />
+        <item itemvalue="Robot.Play around Dictionary" />
         <item itemvalue="Robot.Validate products are displayed on Shopping Page" />
         <item itemvalue="Robot.Invalid username" />
-        <item itemvalue="Robot.Validate products are displayed on Shopping Page (1)" />
-        <item itemvalue="Robot.Validate Unsuccessful Login" />
-        <item itemvalue="Robot.Login with ${username} and ${password}" />
       </list>
     </recent_temporary>
   </component>
